@@ -1,8 +1,15 @@
 import React from 'react'
-
+import './App.css'
+import {Header, Navbar} from './components';
 const App = () => {
   return (
-    <div><h1>So it begins</h1></div>
+    <div className="App">
+        <div className="gradient__bg">
+            <Navbar/>
+            <Header/>
+        </div>
+
+    </div>
   )
 }
 
